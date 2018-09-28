@@ -43,3 +43,6 @@ Vision assistant is also available in a web app so you can use it in your phone.
 [Mosaic scanner](http://mosaic-env.ukymj23amx.us-east-2.elasticbeanstalk.com/)
 
 [Postit scanner](http://postit-env.vrmmcmjm5h.us-east-2.elasticbeanstalk.com/)
+
+## Notebooks
+If you want to run the notebooks which were used during the development of this project you need to install some additional libraries by running `pip install -r notebooks/requirements.txt`
