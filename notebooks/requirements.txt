@@ -4,3 +4,6 @@ pandas
 matplotlib
 seaborn
 umap-learn
+sklearn
+gensim
+pyldavis
