@@ -1,0 +1,82 @@
+@font-face {
+  font-family: wellcome;
+  src: url('Wellcome-Bold.otf');
+  font-weight: bold;
+}
+
+body {
+  font-family: wellcome;
+}
+h1 {
+  text-align: center;
+}
+
+p {
+  display: block;
+  text-align: center;
+  padding: 50px;
+}
+
+p.camera {
+  height: 50px;
+  background-image: url("https://image.flaticon.com/icons/svg/3/3901.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 100px;
+}
+
+p.upload {
+  padding: 100px;
+}
+
+.file {
+  opacity: 0;
+  height: 150px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+  font-family: wellcome;
+  font-size: 16px;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  transform: translateY(2px);
+}
+
+@media only screen and (max-device-width: 768px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  p {
+    padding: 150px;
+  }
+
+  p.camera {
+    top: 50px;
+    margin-top: 200px;
+  }
+
+  .file {
+    height: 300px;
+    width: 300px;
+  }
+
+  p.upload {
+    padding: 200px;
+  }
+
+  .button {
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 30px;
+  }
+}
