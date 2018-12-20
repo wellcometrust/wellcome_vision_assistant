@@ -1,0 +1,16 @@
+<!doctype html>
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+	<title>Reminders added</title>
+	<h1>A total of {{ menu_items | length }} slack reminders added</h1>
+	<table>
+	{% for item in menu_items %}
+	<TR>
+	   <TD>{{item[0]}}</TD>
+	   <TD>{{item[1]}}</TD>
+	</TR>
+	{% endfor %}
+	</table>
+</body>

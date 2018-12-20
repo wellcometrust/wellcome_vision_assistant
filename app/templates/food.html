@@ -1,0 +1,14 @@
+<!doctype html>
+<head>
+	<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+	<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+	<link rel="apple-touch-icon" sizes="72x72" href="{{ url_for('static', filename='postit.png') }}" />
+</head>
+<body>
+	<title>Food scanner</title>
+	<h1>Food scanner</h1>
+	<form method=post enctype=multipart/form-data>
+		<p class="camera"><input type=file name=file class="file"></p>
+	  	<p class="upload"><input type=submit value=Upload class="button"><p>
+	</form>
+</body>
